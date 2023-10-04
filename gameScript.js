@@ -177,7 +177,7 @@ function expendSnake() {
 
 function checkGameOver() {
    if (snakeOutOfGrid() || snakeIntersection()) {
-      alert("Game Over : You Loose");
+      alert("Game Over...!!");
       gameOver = true;
       location.reload();
    }
